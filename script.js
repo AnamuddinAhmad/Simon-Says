@@ -65,7 +65,7 @@ function checkAns(idx) {
       levelUp();
     }
   } else {
-    h2.innerHTML = `Game Over! Your Score was <b> ${level} </b> Press any key to start.`;
+    h2.innerHTML = `Game Over! Your Score was <b> ${level} </b> Click here to start.`;
     let blink=document.querySelector(".contian");
     blink.classList.add("blink");
     setTimeout(function() {
